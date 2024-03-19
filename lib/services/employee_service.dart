@@ -16,9 +16,10 @@ class EmployeeService {
 
     try {
       final response = searchQuery.isEmpty
-          ? await http.get(Uri.parse('http://localhost:3000/api/employees/'))
+          ? await http.get(
+              Uri.parse('https://zylu-assignment.onrender.com/api/employees/'))
           : await http.get(Uri.parse(
-              'http://localhost:3000/api/employees/search?name=$searchQuery'));
+              'https://zylu-assignment.onrender.com/api/employees/search?name=$searchQuery'));
 
       if (response.statusCode == 200) {
         final res = jsonDecode(response.body);
@@ -55,17 +56,17 @@ class EmployeeService {
     setState();
 
     try {
-      final response =
-          await http.post(Uri.parse('http://localhost:3000/api/employees/'),
-              headers: {'Content-Type': 'application/json'},
-              body: jsonEncode(
-                {
-                  'name': nameController.text,
-                  'department': departmentController.text,
-                  'salary': salaryController.text,
-                  'joinDate': dateController.text,
-                },
-              ));
+      final response = await http.post(
+          Uri.parse('https://zylu-assignment.onrender.com/api/employees/'),
+          headers: {'Content-Type': 'application/json'},
+          body: jsonEncode(
+            {
+              'name': nameController.text,
+              'department': departmentController.text,
+              'salary': salaryController.text,
+              'joinDate': dateController.text,
+            },
+          ));
       if (response.statusCode == 201) {
         onSuccess();
       } else {
@@ -114,7 +115,8 @@ class EmployeeService {
   }) async {
     try {
       final response = await http.put(
-        Uri.parse('http://localhost:3000/api/employees/${employee.id}'),
+        Uri.parse(
+            'https://zylu-assignment.onrender.com/api/employees/${employee.id}'),
         headers: {'Content-Type': 'application/json'},
         body: jsonEncode({
           'name': name,

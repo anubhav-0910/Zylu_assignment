@@ -196,7 +196,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 try {
                                   final response = await http.delete(
                                     Uri.parse(
-                                        'http://localhost:3000/api/employees/${employee.id}'),
+                                        'https://zylu-assignment.onrender.com/api/employees/${employee.id}'),
                                   );
                                   if (response.statusCode == 200) {
                                     ScaffoldMessenger.of(context).showSnackBar(

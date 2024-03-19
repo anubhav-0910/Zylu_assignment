@@ -8,8 +8,9 @@ const connectDB = async () => {
   .then(() => console.log('Connected to the Database'))
   .catch((err) => console.log(err))
 }
+
 connectDB();
 
 app.listen(3000, () => {
-  console.log('Server is running at PORT:3000' );
+  console.log('Server is running');
 });
