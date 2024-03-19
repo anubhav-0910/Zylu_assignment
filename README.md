@@ -16,6 +16,23 @@ This is a Flutter application developed as part of the internship assignment for
  - Filter employees based on their active status (active or inactive).
 - **Active Employee Indicator**: Employees who have been active for more than 5 years are highlighted with a green dot.
 
+  ## Screenshots
+   <div style="display: flex; flex-direction: row;">
+   <img src = "https://github.com/anubhav-0910/Zylu_assignment/blob/master/assets/images/Simulator%20Screenshot%20-%20iPhone%2015%20-%202024-03-20%20at%2003.39.20.png" width="250" height="600">
+   &nbsp;&nbsp;&nbsp;
+   <img src = "https://github.com/anubhav-0910/Zylu_assignment/blob/master/assets/images/Simulator%20Screenshot%20-%20iPhone%2015%20-%202024-03-20%20at%2003.30.29.png" width="250" height="600">
+   &nbsp;&nbsp;&nbsp;
+    <img src = "https://github.com/anubhav-0910/Zylu_assignment/blob/master/assets/images/Simulator%20Screenshot%20-%20iPhone%2015%20-%202024-03-20%20at%2003.31.28.png" width="250" height="600">
+   &nbsp;&nbsp;&nbsp;
+   <img src = "https://github.com/anubhav-0910/Zylu_assignment/blob/master/assets/images/Simulator%20Screenshot%20-%20iPhone%2015%20-%202024-03-20%20at%2003.31.03.png" width="250" height="600">
+   &nbsp;&nbsp;&nbsp;
+     <img src = "https://github.com/anubhav-0910/Zylu_assignment/blob/master/assets/images/Simulator%20Screenshot%20-%20iPhone%2015%20-%202024-03-20%20at%2003.31.08.png" width="250" height="600">
+   &nbsp;&nbsp;&nbsp;
+     <img src = "https://github.com/anubhav-0910/Zylu_assignment/blob/master/assets/images/Simulator%20Screenshot%20-%20iPhone%2015%20-%202024-03-20%20at%2003.31.12.png" width="250" height="600">
+   &nbsp;&nbsp;&nbsp;
+     
+   </div>
+
 ## Technologies Used
 
 - **Frontend**: Flutter
